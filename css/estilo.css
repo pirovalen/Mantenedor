@@ -1,0 +1,60 @@
+
+#tableH {
+    background-color: #00ad91; 
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+
+.table-wrapper {
+    max-height: 400px;
+    overflow-y:scroll;
+}
+
+
+#contenedorBuscador {
+    padding-bottom: 1em;
+    margin-top: 1em;
+}
+
+#boton-buscador {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+}
+
+#input-buscador {
+    margin-left: 0px !important;
+    padding: 10px; 
+    border: 2px solid #ccc;
+    border-radius: 4px; 
+    font-size: 16px; 
+    flex-grow: 1;
+}
+
+#new, #guardar, #nuevo {
+    background-color: #00ad91;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+td, th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
+    height: 100px;
+    position: sticky;
+}
+
+.list-group .list-group-item{
+    background: none;
+    border: none;
+}
